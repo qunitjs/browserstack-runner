@@ -1,7 +1,7 @@
 {
   "name": "@qunitjs/browserstack-runner",
   "description": "[Hotfix] run browser tests over BrowserStack",
-  "version": "0.9.4-qunitjs.1",
+  "version": "0.9.4-qunitjs.2",
   "homepage": "https://github.com/qunitjs/browserstack-runner",
   "repository": {
     "type": "git",
