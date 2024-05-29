@@ -106,7 +106,8 @@ function getTestBrowserInfo(browserString, path) {
 
 function buildTestUrl(test_path, worker_key, browser) {
   var host;
-  if (browser.os.toLowerCase() === 'ios' ){
+  // https://github.com/browserstack/browserstack-runner/issues/263
+  if (browser.os.toLowerCase() === 'ios' || browser.os === 'OS X') {
     host = 'bs-local.com';
   } else {
     host = 'localhost';
