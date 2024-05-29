@@ -1,11 +1,11 @@
 {
   "name": "@qunitjs/browserstack-runner",
   "description": "[Hotfix] run browser tests over BrowserStack",
-  "version": "0.9.5-qunitjs.1",
-  "homepage": "https://github.com/browserstack/browserstack-runner",
+  "version": "0.9.5-qunitjs.2",
+  "homepage": "https://github.com/qunitjs/browserstack-runner",
   "repository": {
     "type": "git",
-    "url": "https://github.com/browserstack/browserstack-runner.git"
+    "url": "https://github.com/qunitjs/browserstack-runner.git"
   },
   "dependencies": {
     "browserstack": "1.3.0",
@@ -26,7 +26,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/browserstack/browserstack-runner/blob/master/MIT-LICENSE.txt"
+      "url": "https://github.com/qunitjs/browserstack-runner/blob/master/MIT-LICENSE.txt"
     }
   ],
   "bin": {
